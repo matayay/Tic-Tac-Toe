@@ -1,0 +1,33 @@
+body {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+
+.board {
+    height: 20rem;
+    width: 20rem;
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    outline: 0.3rem solid grey;
+}
+
+.square {
+    border: 0.3rem solid grey;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
