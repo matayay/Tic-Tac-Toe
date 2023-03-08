@@ -8,7 +8,7 @@ This web app: **Standard Tic Tac Toe game built using vanilla JavaScript.**
 
 Here's a walkthrough of the project.
 
-
+![](./assets/tic.gif)
 
 ## License
 
